@@ -3961,13 +3961,14 @@ jsonify@~0.0.0:
   resolved "https://registry.yarnpkg.com/jsonify/-/jsonify-0.0.0.tgz#2c74b6ee41d93ca51b7b5aaee8f503631d252a73"
   integrity sha1-LHS27kHZPKUbe1qu6PUDYx0lKnM=
 
-jsonld@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/jsonld/-/jsonld-2.0.2.tgz#f5d0631de828ce6dee3a14f08cbdc6a53174cd15"
-  integrity sha512-/TQzRe75/3h2khu57IUojha5oat+M82bm8RYw0jLhlmmPrW/kTWAZ9nGzKPfZWnPYnVVJJMQVc/pU8HCmpv9xg==
+jsonld@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/jsonld/-/jsonld-3.2.0.tgz#be31b2ee9d5ed490d1e912263e31ca327f5a157f"
+  integrity sha512-re7FofG1iklGDlAthC4u5AMMt4l3qRNQbSI0nZTJu9vJG2R0QO6/yIhh8ZIh/M9Gg+EjXsULgQV/HEsltoVZBg==
   dependencies:
     canonicalize "^1.0.1"
     lru-cache "^5.1.1"
+    object.fromentries "^2.0.2"
     rdf-canonize "^1.0.2"
     request "^2.88.0"
     semver "^6.3.0"
@@ -4729,6 +4730,16 @@ object.assign@^4.1.0:
     es-abstract "^1.18.0-next.0"
     has-symbols "^1.0.1"
     object-keys "^1.1.1"
+
+object.fromentries@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/object.fromentries/-/object.fromentries-2.0.2.tgz#4a09c9b9bb3843dd0f89acdb517a794d4f355ac9"
+  integrity sha512-r3ZiBH7MQppDJVLx6fhD618GKNG40CZYH9wgwdhKxBDDbQgjeWGGd4AtkZad84d291YxvWe7bJGuE65Anh0dxQ==
+  dependencies:
+    define-properties "^1.1.3"
+    es-abstract "^1.17.0-next.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
 
 object.getownpropertydescriptors@^2.0.3:
   version "2.1.0"
