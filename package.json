@@ -1,6 +1,6 @@
 {
   "name": "jsonld-signatures",
-  "version": "5.1.1-0",
+  "version": "5.1.2-0",
   "description": "An implementation of the Linked Data Signatures specifications for JSON-LD in JavaScript.",
   "homepage": "https://github.com/digitalbazaar/jsonld-signatures",
   "author": {
@@ -34,7 +34,7 @@
     "base64url": "^3.0.1",
     "crypto-ld": "^3.7.0",
     "jsonld": "^3.2.0",
-    "node-forge": "^0.9.1",
+    "node-forge": "^0.10.0",
     "security-context": "^4.0.0",
     "serialize-error": "^5.0.0"
   },
