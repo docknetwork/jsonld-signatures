@@ -1,5 +1,15 @@
 # jsonld-signatures ChangeLog
 
+## 6.0.0 - 2020-09-30
+
+### Changed
+- **BREAKING**: Drop support for Node.js v8.
+
+## 5.2.0 - 2020-09-30
+
+### Changed
+- Use node-forge@0.10.0.
+
 ## 5.1.0 - 2020-05-05
 
 ### Changed
